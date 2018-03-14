@@ -1,0 +1,96 @@
+.navbar {
+    box-shadow: 2px 2px 5px orange;
+    opacity: 0.9;
+    background: #fff;
+}
+
+.navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px;
+}
+
+.info-header {
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #ddd solid;
+}
+
+@media (max-width: 576px) {
+    nav .container {
+        width: 100%;
+    }
+}
+
+a {
+    color: orange;
+}
+
+.btn-warning {
+    color: white;
+}
+
+.card:hover .btn-warning {
+    background: white;
+    color: orange;
+}
+
+.card:hover {
+    background: orange;
+    color: white;
+}
+
+.fa-linkedin-in:hover {
+    background-color:#0077b5;
+    color: white;
+}
+
+.fa-github:hover {
+    background-color:#6c757d;
+    color: white;
+}
+
+.fa-envelope:hover {
+    background-color:#0077b5;
+    color: white;
+}
+
+a > .rounded-circle {
+    font-size: 2em;
+    background: white;
+    padding: 0.3em;
+}
+
+.card {
+    box-shadow: 1px 2px 20px rgba(0,0,0,0.5);
+}
+.card-footer {
+    color: black;
+}
+
+footer > a > .rounded-circle {
+    font-size: 2em;
+    background: white;
+    padding: 0.3em;
+}
+
+footer .rounded-circle:hover {
+    background: orange;
+    color: white;
+}
+
+.modal-header {
+    background: orange;
+    border-radius: 0px;
+}
+
+.nav-link:hover {
+    color: orangered;
+}
+
+.image{
+    margin-top: -87px;
+    box-shadow: 1px 2px 20px rgba(0,0,0,0.5);
+}
+.list-group-item {
+    border : none;
+}
