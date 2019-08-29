@@ -14,6 +14,11 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
 .carousel-wild-title {
     color: #f9a02e;
     font-weight: bold;
